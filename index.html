@@ -1,0 +1,93 @@
+<html>
+<head>
+	<!--<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script>-->
+		<script src="jquery-1.10.2.js"></script>-
+		<link rel="stylesheet" type="text/css" href="mediaQueries.css" />
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+	
+	
+</head>
+<body>
+	
+	
+		
+	
+	<div id="wrapper">
+	
+	<div id="toggle">
+	<form action="databaseFetch.php" method="post">
+	 <label for="male">First Name</label>
+	<input type="text" name="first_name" Id="first_name" value="Joey smith">
+	 <label for="male">Last Name</label>
+	<input type="text" name="last_name" Id="last_name" value="Joey smith">
+	 <label for="male">Account</label>	
+	<input type="text" name="contact" Id="contact" value="Joey smith">
+	 <label for="male">Email</label>
+	<input type="text" name="email" Id="email" value="Joey smith">	
+
+	</form>	
+
+	</div> <!-- end of div toggle-->
+
+	<form id="single" action="databaseFetch.php" method="post">
+	 <label for="value" class="value"></label>
+	<input type="text" name="full_name" Id="searchPerson" value="Joey smith">
+	</form>	
+
+	<div id="wrapper_inner">
+
+	<div id="buttonAdvancedLabel">Advanced Search
+	<div id="buttonAdvanced">
+		<div id="button" class="onOff active"></div> <div id="button" class="offbuttoNone"></div> 	
+
+	</div> <!-- end of div buttonAdvanced-->
+	</div> <!-- end of div buttonAdvancedLabel-->
+
+	<div id="search">Search
+	
+		<select id="searchPerson">
+		  <option value="all">all</option>
+		  <option value="account">Account</option>
+		  <option value="contact">Contact</option>
+		  <option value="lead">Lead</option>
+		</select>
+
+
+	</div> <!-- end ofdiv class search-->
+
+	 <select id="search">
+	  <option value="search">Search</option>
+	  <option value="salesforce" id="salesforce">Salesforce</option>
+	  <option value="eloqua" id="eloqua">Eloqua</option>
+	  <option value="both" id="both">Both</option>
+	</select> 
+
+	</div> <!-- end of wrapper_inner-->
+	
+	</div> <!-- end of wrapper-->
+
+
+
+	<div id="wrapperOutput">
+	
+	<div id="contentContainer">
+		<div id="contentheader"> Joe Smith at IBM <div id="searchType">Saleforce</div>
+		</div> <!-- end of contentheader-->			
+		
+		<div id="contentvalues">
+			Email <?php echo $email; ?> <br />
+			Country <?php echo $country; ?> <br />
+			State <?php echo $state; ?> <br />
+			Owner <?php echo $owner; ?>		
+		</div> <!-- end of contentvalues-->
+
+	</div> <!-- end of contentContainer-->
+
+	</div> <!-- end of wrapperOutput-->
+
+
+<script src="search.js"></script>
+</body>
+</html>
+
+

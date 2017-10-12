@@ -1,0 +1,177 @@
+body {
+     font-size: 14px;
+     color: #4a4848;
+     font-weight: 600;
+}
+
+
+div#wrapper {
+	/*border:1px solid gray;*/
+	width: 435px;
+	height: inherit;
+	margin:0 auto;
+}
+
+
+div#wrapper_inner {
+   /* border: 1px solid red;*/
+    height: 280;
+
+}
+
+form#single label {
+	margin: -12px;
+}
+
+input {
+   height: 40px;
+   width: 400px;
+   margin: 20px;
+}
+
+input#searchPerson {
+	 display:none;
+}
+
+div#buttonAdvanced {
+	width: 60px;
+	height: 30px;
+	background-color: gray;
+	float: right;
+	border-radius: 3px;
+	
+}
+div#button {
+	margin: 2px;
+	width: 25px;
+	height: 25px;
+	float: left;
+	border-radius: 3px;
+}
+
+
+label {
+	float: left;
+	padding: 20px;
+	padding-left: 10px;
+	margin:-30px;
+}
+/*
+.onOff {
+	background-color:rgb(60, 174, 246);
+}
+*/
+
+.buttonAdvancedActive {
+	background-color:rgb(60, 174, 246)!important;
+}
+
+.active{
+	 background-color: #dae1de!important;
+}
+
+select#search {
+    background-color: rgb(60, 174, 246);
+    float: right;
+    height: 44px;
+    width: 133px;
+    color: white;
+    font-weight: 700;
+    border: 1px solid rgb(126, 177, 173);
+    bottom: 235px;
+    position: relative;
+    margin-right: 20px;
+    font-size: 19px;
+    padding:10px;
+}
+
+select#search option {
+    box-sizing: content-box;	
+    height: 30px;
+    border-top: 1px solid rgb(53, 233, 240);
+    border-bottom: 1px solid rgb(53, 233, 240);
+    padding-left:20px;
+    padding:10px;
+    
+}
+
+
+div#search {
+	  /*  border: 1px solid black;*/
+	    width: 220px;
+	    height: 141px;
+	    margin: 20px;
+	    color: #4a4848;
+	    font-weight: 600;
+}
+
+div#buttonAdvancedLabel {
+    font-size: 14px;
+    color: #4a4848;
+   /* border: 1px solid gray;*/
+    width: 224px;
+    height: 49px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+
+select#searchPerson {
+    background-color: rgb(216, 228, 236);
+    float: right;
+    height: 40px;
+    width: 133px;
+    color: #4d4d4d;
+    font-weight: 400;
+    border: 1px solid rgb(144, 144, 144);
+    font-family: 23;
+    font-size: 17;
+    padding: 10;
+    padding-left: 14;
+  
+}
+
+select#searchPerson option {
+    height: 26px;
+    border-top: 1px solid rgb(144, 144, 144);
+    padding-left: 14px;
+    padding: 10px;
+}
+
+div#toggle{
+	display:block;
+}
+
+div#wrapperOutput {
+	border:1px solid gray;
+	/*margin:10px;*/
+	padding:10px;
+	width: 435px;
+	margin:0 auto;
+}
+
+div#contentContainer {
+	border:1px solid gray;
+	height:235px;	
+}
+
+div#contentheader {
+    background-color: rgb(60, 174, 246);
+    color: white;
+    font-size: 20px;
+    height: 35px;
+    padding: 13px 30px;
+   /* font-weight: 900;*/
+}
+
+div#searchType{
+	float:right;
+}
+
+div#contentvalues {
+    padding: 10px;
+    font-size: 17px;
+    margin: 7px;
+    line-height: 1.7;
+
+}
